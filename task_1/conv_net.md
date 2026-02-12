@@ -115,6 +115,7 @@ X_reshaped = X_scaled.reshape((X_scaled.shape[0], X_scaled.shape[1], 1))
 y_cat = to_categorical(y, num_classes=2)
 
 # Train/test split
+
 X_train, X_test, y_train, y_test = train_test_split(
     X_reshaped, y_cat, test_size=0.2, random_state=42, stratify=y
 )
