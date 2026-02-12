@@ -16,7 +16,8 @@ Fully Connected Layer (Dense): Performs the final classification.
 
 Visualization: CNN Architecture
 
-text
+
+
         Input Data (e.g., 64x64 grayscale image)
                        ↓
      ┌─────────────────────────────────────────────────┐
@@ -41,6 +42,8 @@ text
      └─────────────────────────────────────────────────┘
                        ↓
                     Output (Predictions)
+
+                    
 2. CNN Applications in Cybersecurity
 CNNs are highly effective in cybersecurity because they automatically learn spatial and temporal correlations from raw data. Based on recent research (2024-2025), key application areas include:
 
