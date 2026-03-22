@@ -20,6 +20,10 @@ The residual for each minute is computed as the difference between the observed 
 An anomaly threshold is set at the mean residual plus 2.5 standard deviations (μ + 2.5σ). Any minute whose residual exceeds this threshold is flagged as anomalous. Consecutive (or near-consecutive, gap ≤ 2 minutes) anomalous minutes are grouped into a single attack interval.
 ## Results
 **DDoS Attack Interval: 18:07 – 18:08 (UTC+4) 9,482 requests over 2 minutes — 6.4× above normal baseline**
+
+<img width="823" height="370" alt="image" src="https://github.com/user-attachments/assets/71360e03-bec6-4c0c-9de5-5fedb73442a8" />
+
+
 ### Time Series Summary
 <img width="622" height="274" alt="image" src="https://github.com/user-attachments/assets/0b8f482f-41b6-4584-9183-4a5c6847ed6f" />
 
