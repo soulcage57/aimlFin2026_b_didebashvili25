@@ -1,5 +1,5 @@
 # DDoS ATTACK DETECTION
-## Web Server Log Analysis: DDoS Attack Detection1
+## Web Server Log Analysis: DDoS Attack Detection
 ### Introduction
 This report documents the detection and characterization of a Distributed Denial of Service (DDoS) attack using polynomial regression analysis applied to web server access logs. The analysis covers a one-hour observation window and identifies the precise time interval during which the attack occurred.
 ### Dataset Description
